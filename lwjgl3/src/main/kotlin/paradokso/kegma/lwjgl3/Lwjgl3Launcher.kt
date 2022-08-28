@@ -10,7 +10,7 @@ import paradokso.kegma.Kegma
 fun main() {
     Lwjgl3Application(Kegma(), Lwjgl3ApplicationConfiguration().apply {
         setTitle("Kegma")
-        setWindowedMode(640, 480)
+        setWindowedMode(1024, 768)
         setWindowIcon(*(arrayOf(128, 64, 32, 16).map { "libgdx$it.png" }.toTypedArray()))
     })
 }
