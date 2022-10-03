@@ -17,7 +17,7 @@ dependencies {
     api "io.github.libktx:ktx-tiled:$ktxVersion"
     api "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
 
-	// https://github.com/Quillraven/Fleks
+    // https://github.com/Quillraven/Fleks
     api "io.github.quillraven.fleks:Fleks:$fleksVersion"
 
     // https://mvnrepository.com/artifact/org.clojure/clojure

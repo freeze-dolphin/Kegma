@@ -1,6 +1,7 @@
 package paradokso.kegma.screens
 
-import com.badlogic.gdx.graphics.Texture
+import com.badlogic.gdx.graphics.g2d.TextureAtlas
+import com.badlogic.gdx.graphics.g2d.TextureRegion
 import com.badlogic.gdx.scenes.scene2d.Stage
 import com.badlogic.gdx.scenes.scene2d.ui.Image
 import com.badlogic.gdx.utils.viewport.ExtendViewport
@@ -15,22 +16,13 @@ import paradokso.kegma.systems.RenderSystem
 
 class MainScreen : KtxScreen {
 
-    private val texture = Texture("graphics/player.png".toInternalFile())
+    private val atlas = TextureAtlas("graphics/gameObjects.atlas".toInternalFile())
 
-    //private val image = Texture("logo.png".toInternalFile(), true).apply { setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear) }
-    private val stage = Stage(ExtendViewport(4f, 3f))
+    private val stage = Stage(ExtendViewport(16f, 9f))
     private val world = world {
-        injectables {
-            add(stage)
-        }
-
-        components {
-            add<ImageComponentListener>()
-        }
-
-        systems {
-            add<RenderSystem>()
-        }
+        injectables { add(stage) }
+        components { add<ImageComponentListener>() }
+        systems { add<RenderSystem>() }
     }
 
     override fun show() {
@@ -38,9 +30,21 @@ class MainScreen : KtxScreen {
 
         world.entity {
             add<ImageComponent> {
-                image = Image(texture).apply {
-                    setSize(4f, 4f)
-                }
+                image =
+                        Image(TextureRegion(atlas.findRegion("002-Fighter02"), 0, 0, 32, 48))
+                                .apply {
+                                    setSize(1f, 1.5f)
+                                    setPosition(1f, 1f)
+                                }
+            }
+        }
+        world.entity {
+            add<ImageComponent> {
+                image =
+                        Image(TextureRegion(atlas.findRegion("039-Mage07"), 0, 0, 32, 48)).apply {
+                            setSize(1f, 1.5f)
+                            setPosition(8f, 1f)
+                        }
             }
         }
     }
@@ -54,7 +58,7 @@ class MainScreen : KtxScreen {
     }
 
     override fun dispose() {
-        texture.disposeSafely()
+        atlas.disposeSafely()
         stage.disposeSafely()
         world.dispose()
     }
@@ -62,5 +66,4 @@ class MainScreen : KtxScreen {
     companion object {
         private val log = logger<MainScreen>()
     }
-
 }
