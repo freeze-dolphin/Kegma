@@ -13,6 +13,7 @@ import ktx.log.logger
 import paradokso.kegma.components.ImageComponent
 import paradokso.kegma.components.ImageComponent.Companion.ImageComponentListener
 import paradokso.kegma.systems.RenderSystem
+import paradokso.kegma.systems.AnimationSystem
 
 class MainScreen : KtxScreen {
 
@@ -20,9 +21,15 @@ class MainScreen : KtxScreen {
 
     private val stage = Stage(ExtendViewport(16f, 9f))
     private val world = world {
-        injectables { add(stage) }
+        injectables {
+            add(stage)
+            add(atlas)
+        }
         components { add<ImageComponentListener>() }
-        systems { add<RenderSystem>() }
+        systems {
+            add<AnimationSystem>()
+            add<RenderSystem>()
+        }
     }
 
     override fun show() {

@@ -1,0 +1,307 @@
+External log file: /home/freeze-dolphin/.gdxtexturepackergui/logs/2210161021.log
+Version: 4.10.2
+OS: Linux 5.19.15_1 amd64
+JRE: 17.0.4.1 Azul Systems, Inc.
+[ALSOFT] (EE) Failed to set real-time priority for thread: Operation not permitted (1)
+[ALSOFT] (EE) Failed to set real-time priority for thread: Operation not permitted (1)
+GPU: Mesa Intel(R) HD Graphics 2000 (SNB GT1)
+OpenGL vendor: Intel
+OpenGL version: 3.3 (Compatibility Profile) Mesa 22.1.7
+[ExtensionModuleRepositoryService] Cached data was loaded
+[ConfigurationController] Incremental fonts are disabled
+[GlobalShortcutHandler] Parsing shortcut file: hotkeys_default.txt
+[SystemUtils] Recognized system configuration is Linux (x64)
+[text-red]Exception occurred:[] There is no input files to perform packing
+[text-red]Stack trace:[] 
+java.lang.IllegalStateException: There is no input files to perform packing
+	at com.crashinvaders.texturepackergui.controllers.packing.processors.DataValidationProcessor.processPackage(DataValidationProcessor.java:25)
+	at com.crashinvaders.texturepackergui.utils.packprocessing.CompositePackProcessor.processPackage(CompositePackProcessor.java:20)
+	at com.crashinvaders.texturepackergui.utils.packprocessing.PackProcessingManager.lambda$execute$0(PackProcessingManager.java:60)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Packing is started
+run_14 (alias of run_12)
+run_0 (alias of run_2)
+Packing.........
+Writing 512x64: /home/freeze-dolphin/Documents/game-assets/Enterbrain/RGSS/Standard/Graphics/GDX/gameObjects.png
+Packing is done
+Total pack files size is 12274 bytes
+1 pages
+Total processing time: 8.21sec
+
+Packing is started
+run_14 (alias of run_12)
+run_0 (alias of run_2)
+Packing.........
+Writing 512x64: /home/freeze-dolphin/Documents/game-assets/Enterbrain/RGSS/Standard/Graphics/GDX/gameObjects.png
+Packing is done
+Total pack files size is 12274 bytes
+1 pages
+Total processing time: 0.13sec
+
+Packing is started
+WARNING: Input directory doesn't exist: "/home/idea-workspace/Kegma/assets_raw/002-Fighter02"
+run_14 (alias of run_12)
+run_6 (alias of run_4)
+run_8 (alias of run_10)
+run_0 (alias of run_2)
+Packing.........
+Writing 512x64: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 11222 bytes
+1 pages
+Total processing time: 0.07sec
+
+Packing is started
+WARNING: Input directory doesn't exist: "/home/idea-workspace/Kegma/assets_raw/002-Fighter02"
+run_14 (alias of run_12)
+run_6 (alias of run_4)
+run_8 (alias of run_10)
+run_0 (alias of run_2)
+Packing.........
+Writing 512x64: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 11222 bytes
+1 pages
+Total processing time: 0.05sec
+
+Packing is started
+WARNING: Input directory doesn't exist: "/home/idea-workspace/Kegma/assets_raw/002-Fighter02"
+run_14 (alias of run_12)
+run_6 (alias of run_4)
+run_8 (alias of run_10)
+run_0 (alias of run_2)
+Packing.........
+Writing 512x64: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 11222 bytes
+1 pages
+Total processing time: 0.06sec
+
+Packing is started
+WARNING: Input directory doesn't exist: "/home/idea-workspace/Kegma/assets_raw/002-Fighter02"
+run_14 (alias of run_12)
+run_6 (alias of run_4)
+run_8 (alias of run_10)
+run_0 (alias of run_2)
+Packing.........
+Writing 512x64: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 11222 bytes
+1 pages
+Total processing time: 0.05sec
+
+[InputFilePropertiesDialogController] Input file doesn't exist: /home/idea-workspace/Kegma/assets_raw/002-Fighter02
+Packing is started
+WARNING: Region: "run_15" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_15.png"
+WARNING: Region: "run_12" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_12.png"
+WARNING: Region: "run_07" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_07.png"
+WARNING: Region: "run_00" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_00.png"
+WARNING: Region: "run_08" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_08.png"
+WARNING: Region: "run_14" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_14.png"
+WARNING: Region: "run_02" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_02.png"
+WARNING: Region: "run_10" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_10.png"
+WARNING: Region: "run_05" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_05.png"
+WARNING: Region: "run_03" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_03.png"
+WARNING: Region: "run_06" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_06.png"
+WARNING: Region: "run_04" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_04.png"
+WARNING: Region: "run_13" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_13.png"
+WARNING: Region: "run_11" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_11.png"
+WARNING: Region: "run_01" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_01.png"
+WARNING: Region: "run_09" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_09.png"
+run_14 (alias of run_12)
+run_0 (alias of run_2)
+Packing.........
+Writing 512x64: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 12274 bytes
+1 pages
+Total processing time: 0.07sec
+
+Packing is started
+WARNING: Region: "run_15" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_15.png"
+WARNING: Region: "run_12" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_12.png"
+WARNING: Region: "run_07" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_07.png"
+WARNING: Region: "run_00" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_00.png"
+WARNING: Region: "run_08" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_08.png"
+WARNING: Region: "run_14" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_14.png"
+WARNING: Region: "run_02" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_02.png"
+WARNING: Region: "run_10" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_10.png"
+WARNING: Region: "run_05" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_05.png"
+WARNING: Region: "run_03" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_03.png"
+WARNING: Region: "run_06" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_06.png"
+WARNING: Region: "run_04" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_04.png"
+WARNING: Region: "run_13" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_13.png"
+WARNING: Region: "run_11" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_11.png"
+WARNING: Region: "run_01" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_01.png"
+WARNING: Region: "run_09" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_09.png"
+run_14 (alias of run_12)
+run_0 (alias of run_2)
+Packing.........
+Writing 512x64: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 12274 bytes
+1 pages
+Total processing time: 0.06sec
+
+Packing is started
+fighterrun_2 (alias of fighterrun_0)
+magerun_10 (alias of magerun_8)
+magerun_2 (alias of magerun_0)
+fighterrun_14 (alias of fighterrun_12)
+magerun_12 (alias of magerun_14)
+magerun_4 (alias of magerun_6)
+Packing.........
+Writing 1024x64: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 24569 bytes
+1 pages
+Total processing time: 0.10sec
+
+Packing is started
+WARNING: Region: "run_15" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_15.png"
+WARNING: Region: "run_12" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_12.png"
+WARNING: Region: "run_07" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_07.png"
+WARNING: Region: "run_00" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_00.png"
+WARNING: Region: "run_08" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_08.png"
+WARNING: Region: "run_14" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_14.png"
+WARNING: Region: "run_02" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_02.png"
+WARNING: Region: "run_10" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_10.png"
+WARNING: Region: "run_05" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_05.png"
+WARNING: Region: "run_03" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_03.png"
+WARNING: Region: "run_06" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_06.png"
+WARNING: Region: "run_04" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_04.png"
+WARNING: Region: "run_13" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_13.png"
+WARNING: Region: "run_11" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_11.png"
+WARNING: Region: "run_01" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_01.png"
+WARNING: Region: "run_09" is listed twice. The last added configuration will be used - "/home/freeze-dolphin/Documents/idea-workspace/Kegma/assets_raw/002-Fighter02/run_09.png"
+run_14 (alias of run_12)
+run_0 (alias of run_2)
+Packing.........
+Writing 512x64: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 12274 bytes
+1 pages
+Total processing time: 0.05sec
+
+Packing is started
+mage/run_14 (alias of mage/run_12)
+fighter/run_2 (alias of fighter/run_0)
+mage/run_6 (alias of mage/run_4)
+fighter/run_14 (alias of fighter/run_12)
+mage/run_10 (alias of mage/run_8)
+mage/run_2 (alias of mage/run_0)
+Packing.........
+Writing 1024x64: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 24441 bytes
+1 pages
+Total processing time: 0.08sec
+
+Packing is started
+Packing......
+Writing 256x256: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 23350 bytes
+1 pages
+Total processing time: 0.06sec
+
+Packing is started
+038-Mage06/run_14 (alias of 038-Mage06/run_12)
+002-Fighter02/run_14 (alias of 002-Fighter02/run_12)
+038-Mage06/run_6 (alias of 038-Mage06/run_4)
+038-Mage06/run_10 (alias of 038-Mage06/run_8)
+038-Mage06/run_2 (alias of 038-Mage06/run_0)
+002-Fighter02/run_2 (alias of 002-Fighter02/run_0)
+Packing.........
+Writing 512x256: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 50646 bytes
+1 pages
+Total processing time: 0.13sec
+
+Packing is started
+[text-red]Exception occurred:[] No images to pack
+[text-red]Stack trace:[] 
+java.lang.IllegalStateException: No images to pack
+	at com.crashinvaders.texturepackergui.controllers.packing.processors.PackingProcessor.performPacking(PackingProcessor.java:51)
+	at com.crashinvaders.texturepackergui.controllers.packing.processors.PackingProcessor.processPackage(PackingProcessor.java:42)
+	at com.crashinvaders.texturepackergui.utils.packprocessing.CompositePackProcessor.processPackage(CompositePackProcessor.java:20)
+	at com.crashinvaders.texturepackergui.utils.packprocessing.PackProcessingManager.lambda$execute$0(PackProcessingManager.java:60)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Packing is started
+038-Mage06/run_14 (alias of 038-Mage06/run_12)
+002-Fighter02/run_14 (alias of 002-Fighter02/run_12)
+038-Mage06/run_6 (alias of 038-Mage06/run_4)
+038-Mage06/run_10 (alias of 038-Mage06/run_8)
+038-Mage06/run_2 (alias of 038-Mage06/run_0)
+002-Fighter02/run_2 (alias of 002-Fighter02/run_0)
+Packing.........
+Writing 1024x64: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 24471 bytes
+1 pages
+Total processing time: 0.08sec
+
+Packing is started
+mage/run_14 (alias of mage/run_12)
+fighter/run_2 (alias of fighter/run_0)
+mage/run_6 (alias of mage/run_4)
+fighter/run_14 (alias of fighter/run_12)
+mage/run_10 (alias of mage/run_8)
+mage/run_2 (alias of mage/run_0)
+Packing.........
+Writing 1024x64: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 24441 bytes
+1 pages
+Total processing time: 0.10sec
+
+Packing is started
+mage/run_14 (alias of mage/run_12)
+fighter/run_2 (alias of fighter/run_0)
+mage/run_6 (alias of mage/run_4)
+fighter/run_14 (alias of fighter/run_12)
+mage/run_10 (alias of mage/run_8)
+mage/run_2 (alias of mage/run_0)
+PackingWriting 2048x64: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 32296 bytes
+1 pages
+Total processing time: 0.11sec
+
+Packing is started
+mage/run_14 (alias of mage/run_12)
+fighter/run_2 (alias of fighter/run_0)
+mage/run_6 (alias of mage/run_4)
+fighter/run_14 (alias of fighter/run_12)
+mage/run_10 (alias of mage/run_8)
+mage/run_2 (alias of mage/run_0)
+PackingWriting 2048x64: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 32296 bytes
+1 pages
+Total processing time: 0.11sec
+
+Packing is started
+mage/run_14 (alias of mage/run_12)
+fighter/run_2 (alias of fighter/run_0)
+mage/run_6 (alias of mage/run_4)
+fighter/run_14 (alias of fighter/run_12)
+mage/run_10 (alias of mage/run_8)
+mage/run_2 (alias of mage/run_0)
+PackingWriting 512x256: /home/freeze-dolphin/Documents/idea-workspace/Kegma/assets/graphics/gameObjects.png
+Packing is done
+Total pack files size is 32364 bytes
+1 pages
+Total processing time: 0.12sec
+

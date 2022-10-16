@@ -9,7 +9,7 @@ enum class AnimationType {
     RUN_LEFT,
     RUN_RIGHT,
     DEATH,
-    OPEN
+    OPEN;
 
     var atlasKey: String = this.toString().lowercase()
 }
@@ -20,10 +20,14 @@ data class AnimationComponent(
         var playMode: Animation.PlayMode = Animation.PlayMode.LOOP
 ) {
     lateinit var animation: Animation<TextureRegionDrawable>
-    var nextAnimation: String = ""
+    var nextAnimation: String = NO_ANIMATION
 
     fun nextAnimation(atlasKey: String, type: AnimationType) {
         this.atlasKey = atlasKey
         nextAnimation = "$atlasKey/${type.atlasKey}"
+    }
+
+    companion object {
+        val NO_ANIMATION = ""
     }
 }
